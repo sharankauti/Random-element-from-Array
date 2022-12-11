@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.emojiButton{
+    background-color: #1e1b1b;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s ease-in-out 0s;
+}
+.emojiclass{
+    font-size: 19px;
+}
+.emojiButton:hover{
+    transform: scale(1.05);
+    background-color: crimson;
+    color: #ffffff;
+}
+.emojiButton:focus{
+    box-shadow: none!important;
+    outline: none!important;
+}
